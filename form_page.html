@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page_styles.css" type="text/css">
+    <title>Third Week</title>
+</head>
+<header>
+    <div class="links">
+        <a href="index.html">Start page</a>
+        <a href="form_page.html">Form page</a>
+        <a href="dino_page.html">Dino page</a>
+    </div>
+</header>
+<body>
+    <div id="div-form-container">
+        <form>
+            <div id="first-group">
+                <div class="written-input-form">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                </div>
+            
+                <div class="radio-form">
+                <p>Radio</p>
+                    <input type="radio" id="gender-f" name="gender" value="F">
+                    <label for="gender-f">F</label><br>
+                    <input type="radio" id="gender-m" name="gender" value="M">
+                    <label for="gender-m">M</label><br>
+                    <input type="radio" id="gender-o" name="gender" value="Other">
+                    <label for="gender-o">Other</label>
+                </div>
+            </div>
+
+            <div id="second-group">
+                <div class="date-form">
+                    <label for="start">Start date:</label>
+                    <input type="date" id="date-chooser" name="date-chooser"
+                    value="2023-06-01"
+                    min="2004-01-30" max="2023-06-01">
+                </div>
+
+                <div class="select-form">
+                    <label for="classes">Choose a class:</label>
+
+                    <select name="classes" id="classes">
+                        <option value="512">ISW-512</option>
+                        <option value="613">ISW-613</option>
+                        <option value="710">ISW-710</option>
+                    </select>
+                </div>
+            </div>
+            <div id="submit-zone">
+                <input type="submit" value="Submit" class="submit-info-form">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
